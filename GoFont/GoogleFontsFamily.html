@@ -1,0 +1,10 @@
+<section class="fontSection" id="{{familyId}}">
+  <style type="text/css" scoped>
+    @import url("https://fonts.googleapis.com/css?family={{family}}:{{variants}}")
+  </style>
+  <header>{{family}}</header>
+  <sub>Select [ <a href="javascript:updateAllFonts('{{familyId}}', true);">All</a> / <a href="javascript:updateAllFonts('{{familyId}}', false);">None</a> ]</sub>
+  <ul style="font-family:{{family}}">
+    {{samples}}
+  </ul>
+</section>

@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD59B1381E25CDD700E9673D /* GoogleFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD59B1371E25CDD700E9673D /* GoogleFonts.swift */; };
+		AD6FB7951E207ED8001BA39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FB7941E207ED8001BA39D /* AppDelegate.swift */; };
+		AD6FB7971E207ED8001BA39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FB7961E207ED8001BA39D /* ViewController.swift */; };
+		AD6FB7991E207ED8001BA39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6FB7981E207ED8001BA39D /* Assets.xcassets */; };
+		AD6FB79C1E207ED8001BA39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6FB79A1E207ED8001BA39D /* Main.storyboard */; };
+		AD6FB7A41E208B78001BA39D /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FB7A31E208B78001BA39D /* FontManager.swift */; };
+		ADCC45A71E9C5CD00098748A /* FontRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC45A61E9C5CD00098748A /* FontRenderer.swift */; };
+		ADD8512C1E461D6C006B081D /* HtmlTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8512B1E461D6C006B081D /* HtmlTemplate.swift */; };
+		ADD851341E4661D3006B081D /* FontsView.html in Resources */ = {isa = PBXBuildFile; fileRef = ADD851311E4661D3006B081D /* FontsView.html */; };
+		ADD851351E4661D3006B081D /* GoogleFontsFamily.html in Resources */ = {isa = PBXBuildFile; fileRef = ADD851321E4661D3006B081D /* GoogleFontsFamily.html */; };
+		ADD851361E4661D3006B081D /* GoogleFontsVariant.html in Resources */ = {isa = PBXBuildFile; fileRef = ADD851331E4661D3006B081D /* GoogleFontsVariant.html */; };
+		ADD851391E46D425006B081D /* GoFont.css in Resources */ = {isa = PBXBuildFile; fileRef = ADD851381E46D425006B081D /* GoFont.css */; };
+		ADFDB0771EA83CEC0027E74C /* GoFont.html in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB0761EA83CEC0027E74C /* GoFont.html */; };
+		ADFDB0791EA8447D0027E74C /* GoFont.js in Resources */ = {isa = PBXBuildFile; fileRef = ADFDB0781EA8447D0027E74C /* GoFont.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD59B1371E25CDD700E9673D /* GoogleFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFonts.swift; sourceTree = "<group>"; };
+		AD6FB7911E207ED8001BA39D /* GoFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6FB7941E207ED8001BA39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD6FB7961E207ED8001BA39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD6FB7981E207ED8001BA39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD6FB79B1E207ED8001BA39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD6FB79D1E207ED8001BA39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6FB7A31E208B78001BA39D /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		ADCC45A61E9C5CD00098748A /* FontRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontRenderer.swift; sourceTree = "<group>"; };
+		ADCC57B91ED51E4B00911A86 /* GoFont.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoFont.entitlements; sourceTree = "<group>"; };
+		ADD8512B1E461D6C006B081D /* HtmlTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HtmlTemplate.swift; sourceTree = "<group>"; };
+		ADD851311E4661D3006B081D /* FontsView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FontsView.html; sourceTree = "<group>"; };
+		ADD851321E4661D3006B081D /* GoogleFontsFamily.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GoogleFontsFamily.html; sourceTree = "<group>"; };
+		ADD851331E4661D3006B081D /* GoogleFontsVariant.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GoogleFontsVariant.html; sourceTree = "<group>"; };
+		ADD851381E46D425006B081D /* GoFont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = GoFont.css; sourceTree = "<group>"; };
+		ADFDB0761EA83CEC0027E74C /* GoFont.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GoFont.html; sourceTree = "<group>"; };
+		ADFDB0781EA8447D0027E74C /* GoFont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = GoFont.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD6FB78E1E207ED8001BA39D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD6FB7881E207ED8001BA39D = {
+			isa = PBXGroup;
+			children = (
+				AD6FB7931E207ED8001BA39D /* GoFont */,
+				AD6FB7921E207ED8001BA39D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD6FB7921E207ED8001BA39D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD6FB7911E207ED8001BA39D /* GoFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6FB7931E207ED8001BA39D /* GoFont */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC57B91ED51E4B00911A86 /* GoFont.entitlements */,
+				ADD851371E4661D8006B081D /* Templates */,
+				AD6FB7941E207ED8001BA39D /* AppDelegate.swift */,
+				AD6FB7A31E208B78001BA39D /* FontManager.swift */,
+				AD59B1371E25CDD700E9673D /* GoogleFonts.swift */,
+				AD6FB7961E207ED8001BA39D /* ViewController.swift */,
+				AD6FB7981E207ED8001BA39D /* Assets.xcassets */,
+				AD6FB79A1E207ED8001BA39D /* Main.storyboard */,
+				AD6FB79D1E207ED8001BA39D /* Info.plist */,
+				ADD8512B1E461D6C006B081D /* HtmlTemplate.swift */,
+				ADCC45A61E9C5CD00098748A /* FontRenderer.swift */,
+			);
+			path = GoFont;
+			sourceTree = "<group>";
+		};
+		ADD851371E4661D8006B081D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				ADD851311E4661D3006B081D /* FontsView.html */,
+				ADFDB0761EA83CEC0027E74C /* GoFont.html */,
+				ADD851381E46D425006B081D /* GoFont.css */,
+				ADFDB0781EA8447D0027E74C /* GoFont.js */,
+				ADD851321E4661D3006B081D /* GoogleFontsFamily.html */,
+				ADD851331E4661D3006B081D /* GoogleFontsVariant.html */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD6FB7901E207ED8001BA39D /* GoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6FB7A01E207ED8001BA39D /* Build configuration list for PBXNativeTarget "GoFont" */;
+			buildPhases = (
+				AD6FB78D1E207ED8001BA39D /* Sources */,
+				AD6FB78E1E207ED8001BA39D /* Frameworks */,
+				AD6FB78F1E207ED8001BA39D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoFont;
+			productName = GoFont;
+			productReference = AD6FB7911E207ED8001BA39D /* GoFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD6FB7891E207ED8001BA39D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Code Adepts";
+				TargetAttributes = {
+					AD6FB7901E207ED8001BA39D = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AD6FB78C1E207ED8001BA39D /* Build configuration list for PBXProject "GoFont" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD6FB7881E207ED8001BA39D;
+			productRefGroup = AD6FB7921E207ED8001BA39D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD6FB7901E207ED8001BA39D /* GoFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD6FB78F1E207ED8001BA39D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD851341E4661D3006B081D /* FontsView.html in Resources */,
+				ADFDB0791EA8447D0027E74C /* GoFont.js in Resources */,
+				AD6FB7991E207ED8001BA39D /* Assets.xcassets in Resources */,
+				ADD851351E4661D3006B081D /* GoogleFontsFamily.html in Resources */,
+				ADD851361E4661D3006B081D /* GoogleFontsVariant.html in Resources */,
+				AD6FB79C1E207ED8001BA39D /* Main.storyboard in Resources */,
+				ADD851391E46D425006B081D /* GoFont.css in Resources */,
+				ADFDB0771EA83CEC0027E74C /* GoFont.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD6FB78D1E207ED8001BA39D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6FB7971E207ED8001BA39D /* ViewController.swift in Sources */,
+				AD6FB7A41E208B78001BA39D /* FontManager.swift in Sources */,
+				AD6FB7951E207ED8001BA39D /* AppDelegate.swift in Sources */,
+				ADD8512C1E461D6C006B081D /* HtmlTemplate.swift in Sources */,
+				AD59B1381E25CDD700E9673D /* GoogleFonts.swift in Sources */,
+				ADCC45A71E9C5CD00098748A /* FontRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD6FB79A1E207ED8001BA39D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6FB79B1E207ED8001BA39D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD6FB79E1E207ED8001BA39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD6FB79F1E207ED8001BA39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AD6FB7A11E207ED8001BA39D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoFont/GoFont.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TC6Q3R3J9;
+				INFOPLIST_FILE = GoFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeAdepts.GoFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		AD6FB7A21E207ED8001BA39D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoFont/GoFont.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9TC6Q3R3J9;
+				INFOPLIST_FILE = GoFont/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CodeAdepts.GoFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD6FB78C1E207ED8001BA39D /* Build configuration list for PBXProject "GoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FB79E1E207ED8001BA39D /* Debug */,
+				AD6FB79F1E207ED8001BA39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6FB7A01E207ED8001BA39D /* Build configuration list for PBXNativeTarget "GoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FB7A11E207ED8001BA39D /* Debug */,
+				AD6FB7A21E207ED8001BA39D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD6FB7891E207ED8001BA39D /* Project object */;
+}
