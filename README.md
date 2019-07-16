@@ -20,13 +20,13 @@ GoFont is a simple app that will make it easy to quickly search, preview, and do
 
 ## Screenshots
 
-![Screenshot Overview](Media/Screenshots-Overview.png)
+![Screenshot Overview](Media/Screenshots-Overview.jpg)
 
-![Screenshot Searching](Media/Screenshots-Searching.png)
+![Screenshot Searching](Media/Screenshots-Searching.jpg)
 
-![Screenshot Filtering](Media/Screenshots-Filtering.png)
+![Screenshot Filtering](Media/Screenshots-Filtering.jpg)
 
-![Screenshot Experimenting](Media/Screenshots-Expirmenting.png)
+![Screenshot Experimenting](Media/Screenshots-Experimenting.jpg)
 
-![Screenshot Downloading](Media/Screenshots-Downloading.png)
+![Screenshot Downloading](Media/Screenshots-Downloading.jpg)
 
