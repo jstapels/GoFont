@@ -17,3 +17,16 @@ GoFont is a simple app that will make it easy to quickly search, preview, and do
 
 ## Tips
 * Want your fonts to be automatically installed? Just select the Home/Library/Fonts folder when choosing a download folder and your fonts will be automatically installed.
+
+## Screenshots
+
+![Screenshot Overview](Media/Screenshots-Overview.png)
+
+![Screenshot Searching](Media/Screenshots-Searching.png)
+
+![Screenshot Filtering](Media/Screenshots-Filtering.png)
+
+![Screenshot Experimenting](Media/Screenshots-Expirmenting.png)
+
+![Screenshot Downloading](Media/Screenshots-Downloading.png)
+
