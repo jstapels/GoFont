@@ -150,7 +150,7 @@ struct GoogleFonts: FontHandler {
     func query(search: String, sort: FontSort) -> [FontFamily] {
         return families[sort]!
             .filter { search.isEmpty || $0.lowercased().contains(search.lowercased()) }
-            .map { fonts[$0]! }
+            .compactMap { fonts[$0] }
     }
 
     func getFont(name: String) -> FontFamily? {

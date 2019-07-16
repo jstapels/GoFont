@@ -484,7 +484,7 @@ class ViewController: NSViewController, NSTextFieldDelegate, WKScriptMessageHand
         // Selected fonts html.
         let selectionsHtml = selectedFamilyIds
             .filter { !shownIds.contains($0) }
-            .flatMap { getSelectedFontHtml(name: $0) }
+            .compactMap { getSelectedFontHtml(name: $0) }
             .joined()
 
         // Render output.

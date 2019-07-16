@@ -51,7 +51,7 @@ class FontManager {
     }
 
     func getFont(name: String) -> FontFamily? {
-        return handlers.flatMap({ $0.getFont(name: name) }).first
+        return handlers.compactMap({ $0.getFont(name: name) }).first
     }
 }
 
@@ -94,10 +94,11 @@ struct AnyFont: Hashable, Comparable {
     var font: FontFamily
     var variantId: String
 
-    var hashValue: Int {
-        return 31 &* font.name.hashValue &+ variantId.hashValue
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(font.name)
+        hasher.combine(variantId)
     }
-
+    
     static func == (lhs: AnyFont, rhs: AnyFont) -> Bool {
         return lhs.font.name == rhs.font.name && lhs.variantId == rhs.variantId
     }
